@@ -10,11 +10,24 @@ No external libraries are required. The function uses the built-in `colorsys` an
 
 ## Usage
 
+Import:
+
+```python
+from hue_shift import return_color, reset
+```
+
 To use the random color generator, simply call the `return_color()` function:
 
 ```python
 print(f"{return_colour()}This is a random colour")
 ```
+
+To reset back to the terminal's default color:
+```python
+print(f"{reset()}Default color :) ")
+```
+
+
 # Note
 
 Not all terminals support this wide color range!

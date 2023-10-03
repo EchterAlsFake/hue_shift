@@ -1,1 +1,1 @@
-from .main import return_color
+from .main import return_color, reset

@@ -14,3 +14,7 @@ def return_color():
 
     # Convert RGB values (0 to 1 range) to an ANSI escape code
     return f"\033[38;2;{int(r * 255)};{int(g * 255)};{int(b * 255)}m"
+
+
+def reset():
+    return "\033[0m"
